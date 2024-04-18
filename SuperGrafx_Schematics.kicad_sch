@@ -2866,10 +2866,6 @@
 		(uuid "70886118-0add-42b5-ae09-c6fd1276ff75")
 	)
 	(no_connect
-		(at 83.82 175.26)
-		(uuid "734cf6f1-971f-408a-a01c-2d9687a962ba")
-	)
-	(no_connect
 		(at 83.82 167.64)
 		(uuid "8f46e22b-8a1b-4255-b8b0-2160003309de")
 	)
@@ -3893,7 +3889,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 58.42) (xy 265.43 58.42)
+			(xy 254 58.42) (xy 266.7 58.42)
 		)
 		(stroke
 			(width 0)
@@ -5093,7 +5089,7 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 66.04) (xy 254 66.04)
+			(xy 266.7 66.04) (xy 254 66.04)
 		)
 		(stroke
 			(width 0)
@@ -5400,6 +5396,16 @@
 			(type default)
 		)
 		(uuid "8f9fd18b-cc9f-43cc-9beb-c2a09a352258")
+	)
+	(wire
+		(pts
+			(xy 254 68.58) (xy 266.7 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "902469d2-ee66-4485-bb4f-eaab1ce0dc38")
 	)
 	(wire
 		(pts
@@ -6773,7 +6779,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 60.96) (xy 265.43 60.96)
+			(xy 254 60.96) (xy 266.7 60.96)
 		)
 		(stroke
 			(width 0)
@@ -6860,6 +6866,16 @@
 			(type default)
 		)
 		(uuid "f89f2567-77d4-4568-b608-f4215ec7f940")
+	)
+	(wire
+		(pts
+			(xy 83.82 175.26) (xy 71.12 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9159792-9f69-4b1f-8450-8ea2f81a2796")
 	)
 	(wire
 		(pts
@@ -7128,7 +7144,7 @@
 		(uuid "11c46618-12b9-4da0-b786-b0ebade76573")
 	)
 	(label "~{CD}"
-		(at 265.43 66.04 180)
+		(at 266.7 66.04 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7193,6 +7209,17 @@
 		)
 		(uuid "189a2222-5663-4f87-87b2-3d606e84abee")
 	)
+	(label "XB"
+		(at 71.12 175.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1e8c20bf-df01-4037-be25-638f59f8f7eb")
+	)
 	(label "AGND"
 		(at 381 241.3 180)
 		(fields_autoplaced yes)
@@ -7205,7 +7232,7 @@
 		(uuid "1fcd206b-f780-4370-97ab-95acaac1cf49")
 	)
 	(label "AUDIO_IN"
-		(at 265.43 58.42 180)
+		(at 266.7 58.42 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7788,7 +7815,7 @@
 		(uuid "9cc37409-a4a1-4e6c-8754-85fe4a55ef7b")
 	)
 	(label "~{IRQ2}"
-		(at 265.43 60.96 180)
+		(at 266.7 60.96 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7887,7 +7914,7 @@
 		(uuid "b17dd91a-470e-4a10-a779-992eb74975c9")
 	)
 	(label "~{RST}"
-		(at 265.43 63.5 180)
+		(at 266.7 63.5 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8249,6 +8276,17 @@
 		)
 		(uuid "f45aa0e1-794f-4de4-aef0-d3784b02c417")
 	)
+	(label "XB"
+		(at 266.7 68.58 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f732ebf2-1519-4d90-b948-7dc7333cbfc5")
+	)
 	(label "HSM"
 		(at 313.69 224.79 0)
 		(fields_autoplaced yes)
@@ -8262,7 +8300,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 78.74 269.24 0)
+		(at 91.44 269.24 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8270,8 +8308,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "17283e04-1cb4-4e80-bbf4-789ccad77a8e")
-		(property "Reference" "C4"
-			(at 81.661 268.0278 0)
+		(property "Reference" "C153"
+			(at 94.361 268.0278 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8280,7 +8318,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 81.661 270.4521 0)
+			(at 94.361 270.4521 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8289,7 +8327,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 79.7052 273.05 0)
+			(at 92.4052 273.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8298,7 +8336,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 78.74 269.24 0)
+			(at 91.44 269.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8307,7 +8345,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 78.74 269.24 0)
+			(at 91.44 269.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8324,7 +8362,7 @@
 		(instances
 			(project "SuperGrafx_Schematics"
 				(path "/c0c7a18b-b71f-4912-887a-5291f0c92de2"
-					(reference "C4")
+					(reference "C153")
 					(unit 1)
 				)
 			)
@@ -8599,7 +8637,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 66.04 269.24 0)
+		(at 116.84 269.24 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8608,7 +8646,7 @@
 		(fields_autoplaced yes)
 		(uuid "3f271a8b-b44b-42ae-bf9a-d26013ba57cb")
 		(property "Reference" "C156"
-			(at 68.961 268.0278 0)
+			(at 119.761 268.0278 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8617,7 +8655,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 68.961 270.4521 0)
+			(at 119.761 270.4521 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8626,7 +8664,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 67.0052 273.05 0)
+			(at 117.8052 273.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8635,7 +8673,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 66.04 269.24 0)
+			(at 116.84 269.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8644,7 +8682,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 66.04 269.24 0)
+			(at 116.84 269.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8669,7 +8707,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 104.14 269.24 0)
+		(at 129.54 269.24 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8677,8 +8715,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4afe8bd4-453c-4512-a290-0e2ceec8d765")
-		(property "Reference" "C6"
-			(at 107.061 268.0278 0)
+		(property "Reference" "C157"
+			(at 132.461 268.0278 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8687,7 +8725,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 107.061 270.4521 0)
+			(at 132.461 270.4521 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8696,7 +8734,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 105.1052 273.05 0)
+			(at 130.5052 273.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8705,7 +8743,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 104.14 269.24 0)
+			(at 129.54 269.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8714,7 +8752,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 104.14 269.24 0)
+			(at 129.54 269.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8731,7 +8769,7 @@
 		(instances
 			(project "SuperGrafx_Schematics"
 				(path "/c0c7a18b-b71f-4912-887a-5291f0c92de2"
-					(reference "C6")
+					(reference "C157")
 					(unit 1)
 				)
 			)
@@ -9375,7 +9413,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 129.54 269.24 0)
+		(at 66.04 269.24 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9383,8 +9421,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "affb94a1-d1b4-4fe9-b083-dec9419cb43d")
-		(property "Reference" "C8"
-			(at 132.461 268.0278 0)
+		(property "Reference" "C151"
+			(at 68.961 268.0278 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9393,7 +9431,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 132.461 270.4521 0)
+			(at 68.961 270.4521 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9402,7 +9440,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 130.5052 273.05 0)
+			(at 67.0052 273.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9411,7 +9449,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 129.54 269.24 0)
+			(at 66.04 269.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9420,7 +9458,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 129.54 269.24 0)
+			(at 66.04 269.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9437,7 +9475,7 @@
 		(instances
 			(project "SuperGrafx_Schematics"
 				(path "/c0c7a18b-b71f-4912-887a-5291f0c92de2"
-					(reference "C8")
+					(reference "C151")
 					(unit 1)
 				)
 			)
@@ -9580,7 +9618,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 91.44 269.24 0)
+		(at 104.14 269.24 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9588,8 +9626,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bda93145-5684-4230-8f1e-51ebd4447604")
-		(property "Reference" "C5"
-			(at 94.361 268.0278 0)
+		(property "Reference" "C154"
+			(at 107.061 268.0278 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9598,7 +9636,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 94.361 270.4521 0)
+			(at 107.061 270.4521 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9607,7 +9645,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 92.4052 273.05 0)
+			(at 105.1052 273.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9616,7 +9654,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 91.44 269.24 0)
+			(at 104.14 269.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9625,7 +9663,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 91.44 269.24 0)
+			(at 104.14 269.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9642,7 +9680,7 @@
 		(instances
 			(project "SuperGrafx_Schematics"
 				(path "/c0c7a18b-b71f-4912-887a-5291f0c92de2"
-					(reference "C5")
+					(reference "C154")
 					(unit 1)
 				)
 			)
@@ -10201,7 +10239,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 116.84 269.24 0)
+		(at 78.74 269.24 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10209,8 +10247,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ef85bad1-c885-44ba-9e08-ea5b1c4ef39c")
-		(property "Reference" "C7"
-			(at 119.761 268.0278 0)
+		(property "Reference" "C152"
+			(at 81.661 268.0278 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10219,7 +10257,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 119.761 270.4521 0)
+			(at 81.661 270.4521 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10228,7 +10266,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 117.8052 273.05 0)
+			(at 79.7052 273.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10237,7 +10275,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 116.84 269.24 0)
+			(at 78.74 269.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10246,7 +10284,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 116.84 269.24 0)
+			(at 78.74 269.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10263,7 +10301,7 @@
 		(instances
 			(project "SuperGrafx_Schematics"
 				(path "/c0c7a18b-b71f-4912-887a-5291f0c92de2"
-					(reference "C7")
+					(reference "C152")
 					(unit 1)
 				)
 			)
@@ -10974,6 +11012,16 @@
 				(justify right)
 			)
 			(uuid "860e110d-2655-41e7-a123-086b43bca7c9")
+		)
+		(pin "XB" output
+			(at 254 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f8bd9f6e-3710-4bcc-bb70-8869065db6f4")
 		)
 		(instances
 			(project "SuperGrafx_Schematics"
